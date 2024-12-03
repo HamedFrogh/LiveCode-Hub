@@ -1,0 +1,19 @@
+{"level":"info","message":"Client connected: EUNeM39gLT2L7ZX8AAAB","timestamp":"2024-12-03T10:52:52.315Z"}
+{"level":"info","message":"Join-request received","roomId":"room123","timestamp":"2024-12-03T10:53:06.603Z","username":"testuser"}
+{"level":"info","message":"User joined room","roomId":"room123","timestamp":"2024-12-03T10:53:06.603Z","username":"testuser"}
+{"level":"info","message":"Join-accepted emitted","timestamp":"2024-12-03T10:53:06.605Z","user":{"currentFile":null,"cursorPosition":0,"roomId":"room123","socketId":"EUNeM39gLT2L7ZX8AAAB","status":"online","typing":false,"username":"testuser"},"users":[{"currentFile":null,"cursorPosition":0,"roomId":"room123","socketId":"EUNeM39gLT2L7ZX8AAAB","status":"online","typing":false,"username":"testuser"}]}
+{"level":"info","message":"Message sent Hello, everyone!","roomId":"room123","timestamp":"2024-12-03T10:56:41.308Z"}
+{"cursorPosition":42,"level":"info","message":"User typing started","timestamp":"2024-12-03T10:59:46.640Z","user":{"currentFile":null,"cursorPosition":42,"roomId":"room123","socketId":"EUNeM39gLT2L7ZX8AAAB","status":"online","typing":true,"username":"testuser"}}
+{"level":"info","message":"User typing paused","timestamp":"2024-12-03T11:00:21.038Z","user":{"currentFile":null,"cursorPosition":42,"roomId":"room123","socketId":"EUNeM39gLT2L7ZX8AAAB","status":"online","typing":false,"username":"testuser"}}
+{"level":"info","message":"File created","newFile":{"id":"file123","name":"example.txt"},"parentDirId":"root","roomId":"room123","timestamp":"2024-12-03T11:00:44.224Z"}
+{"fileId":"file123","level":"info","message":"File updated","newContent":"Updated content","roomId":"room123","timestamp":"2024-12-03T12:01:38.672Z"}
+{"fileId":"file123","level":"info","message":"File renamed","newName":"newname.txt","roomId":"room123","timestamp":"2024-12-03T12:02:08.195Z"}
+{"fileId":"file123","level":"info","message":"File deleted","roomId":"room123","timestamp":"2024-12-03T12:02:32.037Z"}
+{"level":"info","message":"Directory created","newDirectory":{"id":"dir123","name":"New Folder"},"parentDirId":"root","roomId":"room123","timestamp":"2024-12-03T12:02:49.380Z"}
+{"children":["file123","file124"],"dirId":"dir123","level":"info","message":"Directory updated","roomId":"room123","timestamp":"2024-12-03T12:03:16.065Z"}
+{"dirId":"dir123","level":"info","message":"Directory renamed","newName":"Renamed Folder","roomId":"room123","timestamp":"2024-12-03T12:03:42.103Z"}
+{"dirId":"dir123","level":"info","message":"Directory deleted","roomId":"room123","timestamp":"2024-12-03T12:04:09.117Z"}
+{"level":"info","message":"Drawing requested","roomId":"room123","socketId":"EUNeM39gLT2L7ZX8AAAB","timestamp":"2024-12-03T12:04:36.185Z"}
+{"drawingData":"base64encodeddata","level":"info","message":"Drawing synchronized","socketId":"socket123","timestamp":"2024-12-03T12:08:25.437Z"}
+{"level":"info","message":"Drawing updated","roomId":"room123","snapshot":"base64encodeddata","timestamp":"2024-12-03T12:08:50.647Z"}
+{"level":"info","message":"User disconnecting","socketId":"EUNeM39gLT2L7ZX8AAAB","timestamp":"2024-12-03T12:09:24.841Z","user":{"currentFile":null,"cursorPosition":42,"roomId":"room123","socketId":"EUNeM39gLT2L7ZX8AAAB","status":"online","typing":false,"username":"testuser"}}
